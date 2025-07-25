@@ -5,6 +5,15 @@
 - Auto detect encoding
 - Recode to UTF-8
 
+## Install
+
+```bash
+npm install @text-magic/recodec
+pnpm add @text-magic/recodec
+yarn add @text-magic/recodec
+bun add @text-magic/recodec
+```
+
 ## Usage
 
 ```ts
