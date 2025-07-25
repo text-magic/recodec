@@ -1,1 +1,3 @@
-console.log("Hello via Bun!");
+import { toUTF8 } from "./lib/recodec";
+
+export { toUTF8 };

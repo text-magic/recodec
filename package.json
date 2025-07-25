@@ -1,12 +1,28 @@
 {
-  "name": "recodec",
-  "module": "index.ts",
+  "name": "@text-magic/recodec",
+  "description": "Recode text to UTF-8",
+  "author": "Zed",
+  "license": "MIT",
+  "version": "0.1.0",
   "type": "module",
-  "private": true,
+  "module": "index.ts",
+  "scripts": {
+    "build": "bunup"
+  },
+  "dependencies": {
+    "chardet": "^2.1.0",
+    "debug": "^4.4.1",
+    "iconv-lite": "^0.6.3"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/debug": "^4.1.12",
+    "bunup": "^0.8.71"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "prettier": {
+    "printWidth": 100
   }
 }
