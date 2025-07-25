@@ -1,6 +1,8 @@
 {
   "name": "@text-magic/recodec",
   "description": "Recode text to UTF-8",
+  "author": "Zed",
+  "license": "MIT",
   "version": "0.1.0",
   "type": "module",
   "files": [
@@ -16,8 +18,6 @@
       }
     }
   },
-  "author": "Zed",
-  "license": "MIT",
   "scripts": {
     "build": "bunup"
   },
