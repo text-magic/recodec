@@ -3,6 +3,7 @@
   "description": "Recode text to UTF-8",
   "author": "Zed",
   "license": "MIT",
+  "homepage": "https://github.com/text-magic/recodec",
   "version": "0.1.0",
   "type": "module",
   "files": [

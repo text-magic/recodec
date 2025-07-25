@@ -1,15 +1,17 @@
 # recodec
 
-To install dependencies:
+## Features
 
-```bash
-bun install
+- Auto detect encoding
+- Recode to UTF-8
+
+## Usage
+
+```ts
+import { toUTF8 } from "@text-magic/recodec";
+
+const input = await Bun.file("./test.txt").arrayBuffer();
+const output = toUTF8(input);
+console.log(output);
 ```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
